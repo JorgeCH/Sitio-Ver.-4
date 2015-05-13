@@ -28,6 +28,10 @@ h2{
 	transition:0.5s;
 	text-align: left;
 }
+
+.red{
+	color: #cc0000;
+}
 #color{
 	transition:0.5s;
 }
