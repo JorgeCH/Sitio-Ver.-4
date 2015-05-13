@@ -31,16 +31,7 @@ h2{
 #color{
 	transition:0.5s;
 }
-h1:hover, #color:hover
-{
-	color:#cc0000;
-	transition:0.5s;
-}
-h2:hover, #color:hover
-{
-	color:#cc0000;
-	transition:0.5s;
-}
+
 b{
 	color:#cc0000;
 }
@@ -102,8 +93,8 @@ input[type="text"]{
 	padding-bottom: auto;	
 }
 input[type="submit"]{
-	background-color:#cc0000;
-	border-color:#cc0000;
+	background-color:#292929;
+	border-color:#292929;
 	color:white;
 	border-style:solid;
 }
@@ -132,23 +123,6 @@ a:hover{
 }
 
 
-button{
-	border-color: #cc0000;
-	border-style: solid;
-	border-width: 3px;
-	background-color: #cc0000;
-	color: white;
-	height: 50px;
-	margin-bottom: 10px;
-	width: 175px;
-	transition:0.5s;
-}
-
-button:hover{
-	cursor: pointer;
-	background-color: #cc0000;
-	transition:0.5s;
-}
 .slide{
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
