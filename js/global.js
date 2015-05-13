@@ -41,7 +41,7 @@ function getHeight() {
 function centerHeaderElements(){
 	var x = document.getElementById('menu');
 	var y = document.getElementById('header');
-	x.style.marginTop = (y.offsetHeight - x.offsetHeight)/2;
+	x.style.marginTop = (y.offsetHeight - x.offsetHeight)/2 ;
 	x.style.marginBottom = (y.offsetHeight - x.offsetHeight)/2;
 	var a = document.getElementById('nuva');
 	var b = document.getElementById('footer');

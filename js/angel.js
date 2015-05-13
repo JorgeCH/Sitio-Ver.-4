@@ -2,6 +2,10 @@
 var cien = "100";
 var cientocincuenta = "150";
 
+var speed="500"
+var textArray = new Array("TE PROTEGE DESDE EL CIELO","SISTEMAS DE GEOLOCALIZACIÓN","src/slider3.jpg", "src/slider4.jpg","src/slider5.jpg");
+
+
 function changeOp(){
     
     $( "#marker1" ).fadeTo( "slow" , 0.1, function() {
@@ -94,5 +98,9 @@ window.addEventListener('load', function(event){
         window.setInterval("changeOp()", 1200);
         window.setInterval("move()", 1500);
     }
+
 });
 
+function changeText (){
+
+}

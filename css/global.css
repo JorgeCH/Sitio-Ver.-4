@@ -450,6 +450,7 @@ p{
 		width:25%;
 		float:left;
 		line-height:2em;
+
 	}
 	#menu a:nth-child(1n+1){
 		padding-left:17.5px;
@@ -458,5 +459,9 @@ p{
 	#hdbg {
 		height:15%;
 		width:100%;
+	}
+
+	#logo{
+		visibility: hidden;
 	}
 }
