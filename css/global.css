@@ -213,7 +213,13 @@ ul.icon img{
 	margin-right:auto;
 	text-align:left;
 }
+#logo {
+	
+	float: left;
+	width: 4%;
+	padding: 10px 10px 10px 150px;
 
+}
 #one {
 	background-color: #19191d;
 	color: white;
