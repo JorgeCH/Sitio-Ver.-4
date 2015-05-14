@@ -41,19 +41,25 @@ function getHeight() {
 function centerHeaderElements(){
 	var x = document.getElementById('menu');
 	var y = document.getElementById('header');
-	var z = document.getElementById('logo');
+	
 	x.style.marginTop = (y.offsetHeight - x.offsetHeight)/2 ;
-	x.style.marginBottom = (y.offsetHeight - x.offsetHeight)/2;
-	z.style.marginTop = (y.offsetHeight - z.offsetHeight)/2 ;
-	z.style.marginBottom = (y.offsetHeight - z.offsetHeight)/2;
+	x.style.marginBottom = (y.offsetHeight - x.offsetHeight)/2 ;
+	
 
-	var a = document.getElementById('nuva');
+	//var a = document.getElementById('nuva');
 	var b = document.getElementById('footer');
 	var c = document.getElementById('aviso');
-	a.style.marginTop = (b.offsetHeight - a.offsetHeight)/2;
-	a.style.marginBottom = (b.offsetHeight - a.offsetHeight)/2;
+	//a.style.marginTop = (b.offsetHeight - a.offsetHeight)/2;
+	//a.style.marginBottom = (b.offsetHeight - a.offsetHeight)/2;
 	c.style.marginTop = (b.offsetHeight - c.offsetHeight)/2;
 	c.style.marginBottom = (b.offsetHeight - c.offsetHeight)/2;
+
+	if (getWidth()<768){
+		console.log("hdiheio");
+		
+		x.style.marginTop = (y.offsetHeight - x.offsetHeight)/2 -20;
+		x.style.marginBottom = (y.offsetHeight - x.offsetHeight)/2 -20;
+	}
 
 }
 function setContainerWidth(){
@@ -94,7 +100,9 @@ function setContainerHeight(){
 // }
 
 if (getWidth()<768) {
+	console.log("nihdi");
 	var values = {
+
 	//Specify global container width in decimals
 	//relative to window
 	contWidth: 0.8,

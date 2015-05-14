@@ -171,6 +171,18 @@ ul.icon img{
 	height:75px;
 }
 
+.center{
+	text-align: center !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+.spacer{
+	height: 150px;
+}
+.clear{
+	clear: both;
+}
 .products ul.icon{
 	text-align:center;
 }
@@ -194,7 +206,7 @@ ul.icon img{
 #logo {
 	
 	float: left;
-	width: 4%;
+	width: 15%;
 	padding: 10px 10px 10px 150px;
 
 }
@@ -363,6 +375,8 @@ ul.icon img{
 	position: relative;
 	z-index: 100000;
 }
+
+
 .main{
 	text-align: justify;
 	float: left;
@@ -397,14 +411,50 @@ ul.icon img{
 	float: left;
 }
 
+.columns{
+	float: left;
+	width: 200px;
+	text-align: justify;
+	margin:30px;
+
+}
+
+.columns li{
+	padding-top: 15px;
+}
+
+.columns h2{
+	padding-bottom: 20px;
+}
+
+.columns img{
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
 p{
 	text-align: justify;
+}
+
+li{
+	list-style: none;
 }
 @media screen and (max-width: 768px){
 
 	.main{
 		float: left;
     }
+
+    .spacer{
+    	height: 200px;
+    	width: 100%;
+
+    }
+    .spacer-min {
+    	height: 20px;
+    	width: 100%;
+    }
+
 	.seccion{
 		width: 100%;
 		float: left;
@@ -434,6 +484,7 @@ p{
 	#header{
 		width:100%;
 		text-align: center;
+
 	}
 	#header .content{
 		width:80%;
@@ -447,6 +498,10 @@ p{
 	}
 	#map img{
 		height:150px;
+	}
+
+	#menu{
+		
 	}
 	#menu a{
 		display:inline-block;
@@ -466,5 +521,21 @@ p{
 
 	#logo{
 		visibility: hidden;
+		width: 0%;
+	}
+
+	#content{
+		
+		padding: 0px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		position: relative;
+		left: -40px;
+	}
+
+	
+	#phrase{
+		font-size: 18px !important;
 	}
 }
