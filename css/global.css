@@ -363,6 +363,8 @@ ul.icon img{
 	position: relative;
 	z-index: 100000;
 }
+
+
 .main{
 	text-align: justify;
 	float: left;
@@ -466,5 +468,6 @@ p{
 
 	#logo{
 		visibility: hidden;
+		width: 0%;
 	}
 }
