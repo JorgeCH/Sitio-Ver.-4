@@ -41,12 +41,10 @@ function getHeight() {
 function centerHeaderElements(){
 	var x = document.getElementById('menu');
 	var y = document.getElementById('header');
-	var z = document.getElementById('logo');
-	var zwth = z.width / 5;
+	
 	x.style.marginTop = (y.offsetHeight - x.offsetHeight)/2 ;
 	x.style.marginBottom = (y.offsetHeight - x.offsetHeight)/2 ;
-	z.style.marginTop = (y.offsetHeight - z.offsetHeight)/2  ;
-	z.style.marginBottom = (y.offsetHeight - z.offsetHeight)/2 ;
+	
 
 	//var a = document.getElementById('nuva');
 	var b = document.getElementById('footer');
@@ -58,8 +56,7 @@ function centerHeaderElements(){
 
 	if (getWidth()<768){
 		console.log("hdiheio");
-		z.style.marginTop = 0 ;
-		z.style.marginBottom = 0;
+		
 		x.style.marginTop = (y.offsetHeight - x.offsetHeight)/2 -20;
 		x.style.marginBottom = (y.offsetHeight - x.offsetHeight)/2 -20;
 	}

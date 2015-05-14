@@ -194,7 +194,7 @@ ul.icon img{
 #logo {
 	
 	float: left;
-	width: 4%;
+	width: 15%;
 	padding: 10px 10px 10px 150px;
 
 }
@@ -407,6 +407,12 @@ p{
 	.main{
 		float: left;
     }
+
+    .spacer{
+    	height: 50px;
+    	width: 100%;
+    	background-color: black;
+    }
 	.seccion{
 		width: 100%;
 		float: left;
@@ -469,5 +475,15 @@ p{
 	#logo{
 		visibility: hidden;
 		width: 0%;
+	}
+
+	#content{
+		
+		padding: 0px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		position: relative;
+		left: -40px;
 	}
 }
