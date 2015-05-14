@@ -8,7 +8,7 @@ var values = {
 	//relative to window
 	contWidth: 0.6,
 	contHeight: 0,
-	contPad:0.20,
+	contPad:0.20, 
 	headerHeight: 0.12,
 }
 function getWidth() {
@@ -41,8 +41,12 @@ function getHeight() {
 function centerHeaderElements(){
 	var x = document.getElementById('menu');
 	var y = document.getElementById('header');
-	x.style.marginTop = (y.offsetHeight - x.offsetHeight)/2;
+	var z = document.getElementById('logo');
+	x.style.marginTop = (y.offsetHeight - x.offsetHeight)/2 ;
 	x.style.marginBottom = (y.offsetHeight - x.offsetHeight)/2;
+	z.style.marginTop = (y.offsetHeight - z.offsetHeight)/2 ;
+	z.style.marginBottom = (y.offsetHeight - z.offsetHeight)/2;
+
 	var a = document.getElementById('nuva');
 	var b = document.getElementById('footer');
 	var c = document.getElementById('aviso');

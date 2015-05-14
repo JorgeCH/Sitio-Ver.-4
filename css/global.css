@@ -28,19 +28,14 @@ h2{
 	transition:0.5s;
 	text-align: left;
 }
+
+.red{
+	color: #cc0000;
+}
 #color{
 	transition:0.5s;
 }
-h1:hover, #color:hover
-{
-	color:#cc0000;
-	transition:0.5s;
-}
-h2:hover, #color:hover
-{
-	color:#cc0000;
-	transition:0.5s;
-}
+
 b{
 	color:#cc0000;
 }
@@ -102,8 +97,8 @@ input[type="text"]{
 	padding-bottom: auto;	
 }
 input[type="submit"]{
-	background-color:#cc0000;
-	border-color:#cc0000;
+	background-color:#292929;
+	border-color:#292929;
 	color:white;
 	border-style:solid;
 }
@@ -132,23 +127,6 @@ a:hover{
 }
 
 
-button{
-	border-color: #cc0000;
-	border-style: solid;
-	border-width: 3px;
-	background-color: #cc0000;
-	color: white;
-	height: 50px;
-	margin-bottom: 10px;
-	width: 175px;
-	transition:0.5s;
-}
-
-button:hover{
-	cursor: pointer;
-	background-color: #cc0000;
-	transition:0.5s;
-}
 .slide{
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -213,7 +191,13 @@ ul.icon img{
 	margin-right:auto;
 	text-align:left;
 }
+#logo {
+	
+	float: left;
+	width: 4%;
+	padding: 10px 10px 10px 150px;
 
+}
 #one {
 	background-color: #19191d;
 	color: white;
@@ -335,9 +319,12 @@ ul.icon img{
 	float:left;
 	padding-right:40px;
 }
+#footer .container{
+	width:100%;
+}
 #marker1{
 	position: relative;
-	top: -700px;
+	top: -400px;
 	left: 400px;
 	margin: 0px;
 	padding: 0px;
@@ -346,8 +333,8 @@ ul.icon img{
 
 #marker2{
 	position: relative;
-	top: -700px;
-	left: -200px;
+	top: -500px;
+	left: 0px;
 	margin: 0px;
 	padding: 0px;
 	width: 50px;
@@ -357,7 +344,7 @@ ul.icon img{
 #marker3{
 	position: relative;
 	top: -300px;
-	left: 500px;
+	left: 0px;
 	margin: 0px;
 	padding: 0px;
 	width: 50px;
@@ -466,6 +453,7 @@ p{
 		width:25%;
 		float:left;
 		line-height:2em;
+
 	}
 	#menu a:nth-child(1n+1){
 		padding-left:17.5px;
@@ -474,5 +462,9 @@ p{
 	#hdbg {
 		height:15%;
 		width:100%;
+	}
+
+	#logo{
+		visibility: hidden;
 	}
 }
