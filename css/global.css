@@ -399,8 +399,33 @@ ul.icon img{
 	float: left;
 }
 
+.columns{
+	float: left;
+	width: 200px;
+	text-align: justify;
+	margin:30px;
+
+}
+
+.columns li{
+	padding-top: 15px;
+}
+
+.columns h2{
+	padding-bottom: 20px;
+}
+
+.columns img{
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
 p{
 	text-align: justify;
+}
+
+li{
+	list-style: none;
 }
 @media screen and (max-width: 768px){
 
@@ -409,10 +434,15 @@ p{
     }
 
     .spacer{
-    	height: 50px;
+    	height: 200px;
     	width: 100%;
-    	background-color: black;
+
     }
+    .spacer-min {
+    	height: 20px;
+    	width: 100%;
+    }
+
 	.seccion{
 		width: 100%;
 		float: left;
@@ -442,6 +472,7 @@ p{
 	#header{
 		width:100%;
 		text-align: center;
+
 	}
 	#header .content{
 		width:80%;
@@ -455,6 +486,10 @@ p{
 	}
 	#map img{
 		height:150px;
+	}
+
+	#menu{
+		
 	}
 	#menu a{
 		display:inline-block;
@@ -485,5 +520,10 @@ p{
 		text-align: center;
 		position: relative;
 		left: -40px;
+	}
+
+	
+	#phrase{
+		font-size: 18px !important;
 	}
 }
