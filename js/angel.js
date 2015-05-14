@@ -2,8 +2,7 @@
 var cien = "100";
 var cientocincuenta = "150";
 
-var speed="500"
-var textArray = new Array("TE PROTEGE DESDE EL CIELO","SISTEMAS DE GEOLOCALIZACIÓN","src/slider3.jpg", "src/slider4.jpg","src/slider5.jpg");
+var textArray = new Array("TE PROTEGE DESDE EL CIELO","SISTEMAS DE GEOLOCALIZACIÓN","GPS EN TU AUTO", "PROTECCIÓN EN CUALQUIER LUGAR","LOCALIZA TU FLOTILLA");
 
 
 function changeOp(){
@@ -100,7 +99,17 @@ window.addEventListener('load', function(event){
     }
 
 });
-
+var i = 0;
 function changeText (){
+    var head = document.getElementById("phrase");
+    
+    head.innerHTML = textArray[i];
+   
+
+    if (i === 4){
+        i=-1;
+    
+    }
+    i++;
 
 }
