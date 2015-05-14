@@ -319,6 +319,9 @@ ul.icon img{
 	float:left;
 	padding-right:40px;
 }
+#footer .container{
+	width:100%;
+}
 #marker1{
 	position: relative;
 	top: -400px;
